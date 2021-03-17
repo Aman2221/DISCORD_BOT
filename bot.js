@@ -11,6 +11,14 @@ client.on('message', msg  => {
         msg.reply('Hi..');
         //msg.channel.send('bot : i'm not going to tag user')
     }
+    
+    if(msg.content == 'Hi') {
+        msg.reply("Hey, buddy, I'm a bot created by AMAN currently he is offline if you want to talk to him please live a message I'll inform him...")
+    }
+
+    if(msg.content == 'help') {
+        msg.reply('Hey, how can i help you ?');
+    }
 })
 
 client.on('message', msg  => {
